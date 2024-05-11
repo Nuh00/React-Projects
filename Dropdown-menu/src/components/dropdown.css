@@ -31,13 +31,6 @@
 
 @media (max-width: 960px) {
   .dropdown-menu {
-    display: none; /* Start with hidden dropdown */
-    width: 100%; /* Full width */
-    flex-direction: column; /* Keeps items in a column */
-  }
-
-  .dropdown-menu.clicked {
-    /* When clicked class is added, make it visible */
-    display: block; /* Changes display to block, pushing content below */
+    position: static;
   }
 }
