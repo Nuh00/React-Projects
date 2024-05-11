@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+
 import Dropdown from "./Dropdown";
 import Button from "./Button";
 
@@ -28,6 +29,7 @@ function Navbar() {
       navigate("/services");
     }
   };
+  const navigate = useNavigate();
 
   const onMouseEnter = () => {
     if (window.innerWidth >= 960) {

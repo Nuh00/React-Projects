@@ -16,11 +16,6 @@
   font-size: 2rem;
 }
 
-.fa-firstdraft {
-  margin-left: 0.5rem;
-  font-size: 1.6rem;
-}
-
 .nav-menu {
   display: grid;
   grid-template-columns: repeat(5, auto);
@@ -35,6 +30,7 @@
 .nav-item {
   display: flex;
   align-items: center;
+  position: relative;
   height: 80px;
 }
 

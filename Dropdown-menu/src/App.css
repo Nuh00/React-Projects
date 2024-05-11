@@ -27,3 +27,19 @@
   font-weight: 700;
   font-style: italic;
 }
+
+.home,
+.services,
+.product,
+.contact,
+.signup,
+.marketing,
+.consulting,
+.design,
+.development {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  font-size: 5rem;
+}
