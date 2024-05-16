@@ -53,33 +53,38 @@ function AboutAndServices() {
       </div>
 
       <div className="wrapper">
-        <div className="three-column-container">
-          <div className="card">
-            <img src={image3} alt="phone" />
-            <h3>Secure</h3>
-            <p>
-              We value your security and privacy. <br />
-              Our app is encrypted to ensure that your <br />
-              information is safe.
-            </p>
+        <div className="container">
+          <div className="header-column">
+            <h2>Our services</h2>
           </div>
-          <div className="card">
-            <img src={image4} alt="phone" />
-            <h3>Easy to Use</h3>
-            <p>
-              Our app is user-friendly and easy to navigate. <br />
-              You can easily access your account and <br />
-              send transactions in seconds.
-            </p>
-          </div>
-          <div className="card">
-            <img src={image1} alt="phone" />
-            <h3>Fast</h3>
-            <p>
-              Send transactions in seconds. <br />
-              No more waiting for your transactions to <br />
-              process.
-            </p>
+          <div className="three-column-container">
+            <div className="card">
+              <img src={image3} alt="phone" />
+              <h3>Secure</h3>
+              <p>
+                We value your security and privacy. <br />
+                Our app is encrypted to ensure that your <br />
+                information is safe.
+              </p>
+            </div>
+            <div className="card">
+              <img src={image4} alt="phone" />
+              <h3>Easy to Use</h3>
+              <p>
+                Our app is user-friendly and easy to navigate. <br />
+                You can easily access your account and <br />
+                send transactions in seconds.
+              </p>
+            </div>
+            <div className="card">
+              <img src={image1} alt="phone" />
+              <h3>Fast</h3>
+              <p>
+                Send transactions in seconds. <br />
+                No more waiting for your transactions to <br />
+                process.
+              </p>
+            </div>
           </div>
         </div>
       </div>
