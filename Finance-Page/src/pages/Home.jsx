@@ -1,14 +1,16 @@
-import React from 'react'
-import Herosection from '../components/Herosection'
-import AboutAndServices from '../components/AboutAndServices'
+import React from "react";
+import Herosection from "../components/Herosection";
+import AboutAndDiscover from "../components/AboutAndDiscover";
+import Services from "../components/Services";
 
 function Home() {
   return (
     <>
-       <Herosection />
-       <AboutAndServices />
+      <Herosection />
+      <AboutAndDiscover />
+      <Services />
     </>
-  )
+  );
 }
 
-export default Home
+export default Home;

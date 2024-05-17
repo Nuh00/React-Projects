@@ -100,6 +100,7 @@ body {
 
 .cards-info button:hover {
   background-color: aliceblue;
+  color: black;
 }
 
 .cards-info a {
@@ -107,25 +108,21 @@ body {
   color: white;
 }
 
-.cards-info a:hover {
-  color: rgb(10, 170, 98);
-}
+
 
 @media screen and (max-width: 768px) {
-  .container {
+ .container{
     flex-direction: column;
-    align-items: center;
-    height: 100%;
-  }
-  .container > * {
     width: 80%;
-  }
+ }
 
-  .cards-info {
+ .cards-info{
     text-align: center;
-  }
+ }
 
-  .card-image {
-    text-align: center;
-  }
+ .card-image{
+    order: 2;
+ }
 }
+
+

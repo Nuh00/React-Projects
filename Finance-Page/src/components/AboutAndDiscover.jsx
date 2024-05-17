@@ -1,12 +1,11 @@
 import React from "react";
-import "./aboutAndservices.css";
 import { Link } from "react-router-dom";
 import image1 from "../images/svg-1.svg";
 import image2 from "../images/svg-2.svg";
 import image3 from "../images/svg-3.svg";
 import image4 from "../images/svg-4.svg";
 
-function AboutAndServices() {
+function AboutAndDiscover() {
   return (
     <>
       <div className="wrapper">
@@ -47,9 +46,9 @@ function AboutAndServices() {
                 We have you covered no matter where you are located. All you
                 need is an internet connection and a phone or computer.
               </p>
-              <button>
-                <Link to="/services">Learn More</Link>
-              </button>
+              <Link to="./services">
+                <button>Learn More</button>
+              </Link>
             </div>
           </div>
         </div>
@@ -58,4 +57,4 @@ function AboutAndServices() {
   );
 }
 
-export default AboutAndServices;
+export default AboutAndDiscover;
