@@ -126,7 +126,7 @@
     transition: all 0.3s ease;
   }
 
-  button {
+  .btn {
     display: none;
   }
 }
