@@ -10,7 +10,7 @@ import './services.css'
 function Services() {
   return (
     <>
-      <div className="wrapper">
+      <div className="wrapper-services">
         <div className="container-services">
           <div className="header-services">
             <h1>Our Services</h1>

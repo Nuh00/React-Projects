@@ -1,14 +1,20 @@
 import React from "react";
 import Herosection from "../components/Herosection";
-import AboutAndDiscover from "../components/AboutAndDiscover";
+import About from "../components/About";
 import Services from "../components/Services";
+import SignUp from "../components/SignUp";
+import Footer from "../components/Footer";
+import Discover from "../components/Discover";
 
 function Home() {
   return (
     <>
       <Herosection />
-      <AboutAndDiscover />
+      <About />
+      <Discover />
       <Services />
+      <SignUp />
+      <Footer />
     </>
   );
 }
