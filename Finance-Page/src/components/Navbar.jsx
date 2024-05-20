@@ -1,6 +1,6 @@
 import React from "react";
 import { Link as ScrollLink } from "react-scroll";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
 import Button from "./Button";
 import "./navbar.css";
@@ -15,16 +15,27 @@ function Navbar() {
   function closeMobileMenu() {
     setClicked(false);
   }
+  const location = useLocation();
+
+  const isHome = location.pathname === "/";
   return (
     <>
       <nav className="navbar">
-        <Link
-          to="/"
-          className="navbar-logo"
-          onClick={closeMobileMenu}
-        >
-        Invent
-        </Link>
+        {isHome ? (
+          <ScrollLink
+            to="hero"
+            smooth={true}
+            duration={500}
+            className="navbar-logo"
+            onClick={closeMobileMenu}
+          >
+            Invent
+          </ScrollLink>
+        ) : (
+          <Link to="/" className="navbar-logo">
+            Invent
+          </Link>
+        )}
         <div className="menu-icon" onClick={changeClick}>
           <i className={clicked ? "fas fa-times" : "fas fa-bars"}></i>
         </div>
