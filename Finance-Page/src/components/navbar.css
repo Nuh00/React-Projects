@@ -39,6 +39,7 @@
   color: rgb(152, 139, 139);
   text-decoration: none;
   padding: 0.5rem 1rem;
+  cursor: pointer;
 }
 
 .nav-links:hover {

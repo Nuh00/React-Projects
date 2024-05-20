@@ -11,7 +11,7 @@ import image6 from "../images/svg-6.svg";
 function SignUp() {
   return (
     <>
-      <div className="wrapper-light">
+      <div className="wrapper-light" id="signUp">
         <div className="container">
           <div className="cards-info">
             <h4>JOIN OUR TEAM</h4>

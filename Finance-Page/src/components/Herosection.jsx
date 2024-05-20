@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function Herosection() {
   return (
-    <div className="hero-container">
+    <div className="hero-container" id="hero">
       <video src={video} autoPlay loop muted />
       <h1>Virtual Banking - The New Era</h1>
       <p>

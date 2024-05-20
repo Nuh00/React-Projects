@@ -1,11 +1,11 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import image2 from '../images/svg-2.svg'
+import React from "react";
+import { Link } from "react-router-dom";
+import image2 from "../images/svg-2.svg";
 
 function Discover() {
   return (
     <>
-      <div className="wrapper-light">
+      <div className="wrapper-light" id="discover">
         <div className="container">
           <div className="card-image">
             <img src={image2} alt="image1" />
@@ -31,4 +31,4 @@ function Discover() {
   );
 }
 
-export default Discover
+export default Discover;

@@ -8,7 +8,7 @@ import image4 from "../images/svg-4.svg";
 function About() {
   return (
     <>
-      <div className="wrapper">
+      <div className="wrapper" id="about">
         <div className="container">
           <div className="cards-info">
             <h4>PREMIUM BANK</h4>

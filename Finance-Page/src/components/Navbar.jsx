@@ -1,4 +1,5 @@
 import React from "react";
+import { Link as ScrollLink } from "react-scroll";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import Button from "./Button";
@@ -17,8 +18,12 @@ function Navbar() {
   return (
     <>
       <nav className="navbar">
-        <Link to="/" className="navbar-logo">
-          Invent
+        <Link
+          to="/"
+          className="navbar-logo"
+          onClick={closeMobileMenu}
+        >
+        Invent
         </Link>
         <div className="menu-icon" onClick={changeClick}>
           <i className={clicked ? "fas fa-times" : "fas fa-bars"}></i>
@@ -26,35 +31,55 @@ function Navbar() {
 
         <ul className={clicked ? "nav-menu active" : "nav-menu"}>
           <li className="nav-item">
-            <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+            <ScrollLink
+              to="about"
+              smooth={true}
+              duration={500}
+              className="nav-links"
+              onClick={closeMobileMenu}
+            >
               About
-            </Link>
+            </ScrollLink>
           </li>
           <li className="nav-item">
-            <Link
-              to="/discover"
+            <ScrollLink
+              to="discover"
+              smooth={true}
+              duration={500}
               className="nav-links"
               onClick={closeMobileMenu}
             >
               Discover
-            </Link>
+            </ScrollLink>
           </li>
           <li className="nav-item">
-            <Link
-              to="/services"
+            <ScrollLink
+              to="services"
+              smooth={true}
+              duration={500}
               className="nav-links"
               onClick={closeMobileMenu}
             >
               Services
-            </Link>
+            </ScrollLink>
           </li>
           <li className="nav-item">
-            <Link to="/sign-up" className="nav-links" onClick={closeMobileMenu}>
+            <ScrollLink
+              to="signUp"
+              smooth={true}
+              duration={500}
+              className="nav-links"
+              onClick={closeMobileMenu}
+            >
               SignUp
-            </Link>
+            </ScrollLink>
           </li>
           <li className="nav-item">
-            <Link to="/sign-In" className="nav-links-mobile" onClick={closeMobileMenu}>
+            <Link
+              to="signIn"
+              className="nav-links-mobile"
+              onClick={closeMobileMenu}
+            >
               SignIn
             </Link>
           </li>

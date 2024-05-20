@@ -4,7 +4,7 @@ import "./footer.css";
 function Footer() {
   return (
     <>
-      <div className="footer-wrapper">
+      <div className="footer-wrapper" id="footer">
         <div className="footer-container">
           <div className="all-footers">
             <div className="footer">
