@@ -2,11 +2,11 @@ import React from "react";
 
 function NewsLetter() {
   return (
-    <div className="w-full bg-[#000300] py-16 px-4 text-white ">
+    <div className="w-full bg-[#000300] py-24 px-4 text-white ">
       <div className="max-w-[1240px] mx-auto  flex flex-col justify-between items-center text-center  md:flex-row md:text-start ">
         <div className="p-4">
           <h1 className="sm:text-2xl text-xl font-extrabold md:text-3xl mb-1">
-            Want tips & tricks to optimize your flow?{" "}
+            Want tips & tricks to optimize your flow?
           </h1>
           <p className="">Sign up for our newsletter to stay up to date.</p>
         </div>
@@ -19,8 +19,7 @@ function NewsLetter() {
               className="rounded-md px-3 py-2 text-center"
             />
             <button className="w-[150px] bg-mint-green rounded-md text-black hover:text-white ease-in-out duration-500 ">
-              {" "}
-              Notify me{" "}
+              Notify me
             </button>
           </div>
           <p>
