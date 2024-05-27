@@ -6,7 +6,7 @@ function Hero() {
     <div className="text-white ">
       <div className="max-w-[800px] mx-auto  h-screen w-full  text-center flex flex-col gap-2 justify-center">
         <p className="text-mint-green font-extrabold">
-          GROWING WITH DATA ANALYTICS{" "}
+          GROWING WITH DATA ANALYTICS
         </p>
         <h1 className="md:text-7xl sm:text-6xl text-4xl font-sans font-bold md:py-6">
           Grow with data.

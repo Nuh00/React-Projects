@@ -26,19 +26,19 @@ function Navbar() {
       <h1 className="  text-3xl font-bold text-mint-green"> Flow. </h1>
 
       <ul className=" hidden md:flex gap-3 ">
-        <li className="p-4">
+        <li className="p-4 hover:text-mint-green ease-in-out">
           <Link to="/">Home</Link>
         </li>
-        <li className="p-4">
+        <li className="p-4 hover:text-mint-green ease-in-out">
           <Link to="/about">company</Link>
         </li>
-        <li className="p-4">
+        <li className="p-4 hover:text-mint-green ease-in-out">
           <Link to="/about">Resources</Link>
         </li>
-        <li className="p-4">
+        <li className="p-4 hover:text-mint-green ease-in-out">
           <Link to="/about">About</Link>
         </li>
-        <li className="p-4">
+        <li className="p-4 hover:text-mint-green ease-in-out">
           <Link to="/about">Contact</Link>
         </li>
       </ul>
