@@ -11,7 +11,7 @@ function NewsLetter() {
           <p className="">Sign up for our newsletter to stay up to date.</p>
         </div>
 
-        <div className="p-4 w-[500px] md:flex md:flex-co md:items-start flex flex-col items-center  ">
+        <div className="p-4 w-[500px] md:flex md:flex-col md:items-start flex flex-col items-center  ">
           <div className="flex gap-3">
             <input
               type="text"
